@@ -1,0 +1,58 @@
+{
+  "temperature": 0.35,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "creature_spawn_probability": 0.3,
+  "effects": {
+    "sky_color": 4498019,
+    "fog_color": 5738090,
+    "water_color": 2514505,
+    "water_fog_color": 2772024,
+    "grass_color": 1781778,
+    "foliage_color": 10593892,
+    "grass_color_modifier": "swamp"
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:witch",
+        "weight": 120,
+        "minCount": 2,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:spider",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:zombie",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:skeleton_horse",
+        "weight": 25,
+        "minCount": 2,
+        "maxCount": 3
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

@@ -1,0 +1,32 @@
+{
+  "temperature": 0.5,
+  "downfall": 0.2,
+  "has_precipitation": true,
+  "temperature_modifier": "none",
+  "creature_spawn_probability": 0,
+  "effects": {
+    "sky_color": 6779529,
+    "fog_color": 6785384,
+    "water_color": 1327650,
+    "water_fog_color": 2240553,
+    "grass_color": 3557948,
+    "foliage_color": 3295293,
+    "dry_foliage_color": 797724,
+    "grass_color_modifier": "none",
+    "music": [
+      {
+        "weight": 1,
+        "data": {
+          "sound": "minecraft:music.overworld.dripstone_caves",
+          "min_delay": 0,
+          "max_delay": 30,
+          "replace_current_music": true
+        }
+      }
+    ]
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}

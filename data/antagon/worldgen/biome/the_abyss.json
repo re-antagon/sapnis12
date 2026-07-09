@@ -1,0 +1,20 @@
+{
+  "temperature": 0.3,
+  "downfall": 0,
+  "has_precipitation": false,
+  "creature_spawn_probability": 0.4,
+  "effects": {
+    "sky_color": 7907327,
+    "fog_color": 11253956,
+    "water_color": 1383766,
+    "water_fog_color": 1580089,
+    "grass_color": 4633688,
+    "foliage_color": 5226304,
+    "ambient_sound": "minecraft:ambient.underwater.loop",
+    "music_volume": 0.8
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": [],
+  "features": []
+}
