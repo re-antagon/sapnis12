@@ -4,21 +4,25 @@
   "has_precipitation": false,
   "creature_spawn_probability": 0.3,
   "effects": {
-    "sky_color": 2501686,
-    "fog_color": 2500140,
-    "water_color": 3160143,
-    "water_fog_color": 1448994,
-    "grass_color": 4737089,
-    "foliage_color": 2565925,
-    "particle": {
-      "options": {
-        "type": "minecraft:ash"
-      },
-      "probability": 0.95
-    }
+    "water_color": "#30384f",
+    "grass_color": "#484841",
+    "foliage_color": "#272725"
   },
   "spawners": {},
   "spawn_costs": {},
   "carvers": [],
-  "features": []
+  "features": [],
+  "attributes": {
+    "minecraft:visual/sky_color": "#262c36",
+    "minecraft:visual/fog_color": "#26262c",
+    "minecraft:visual/water_fog_color": "#161c22",
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:ash"
+        },
+        "probability": 0.95
+      }
+    ]
+  }
 }
